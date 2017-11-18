@@ -1,0 +1,10 @@
+<suite name="AvayaBreez">
+	<test name='Registration test'>
+		<classes>
+		    <class name="tests.LoginTest"></class>
+		</classes>
+	</test>
+	<listeners>
+		<listener class-name="utilities.ScreenshotOnFailureListener" />
+	</listeners>
+</suite>

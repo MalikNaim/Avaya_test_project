@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AvayaBreez]">
+  <listeners>
+    <listener class-name="utilities.ScreenshotOnFailureListener"/>
+  </listeners>
+  <test name="Registration test(failed)">
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="openEdconsolebrowser"/>
+          <include name="loginWithInvalidUserDeatils"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Registration test(failed) -->
+</suite> <!-- Failed suite [AvayaBreez] -->
